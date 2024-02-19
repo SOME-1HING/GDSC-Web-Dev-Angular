@@ -1,0 +1,21 @@
+.item-todo {
+  border-bottom: 1px solid var(--linecolor);
+  padding: 1.3rem;
+  border-radius: 1px;
+  background-color: #ff8585;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.item-todo p {
+  flex-grow: 1;
+  font-size: 0.8em;
+  color: #fff;
+}
+
+.item-todo span {
+  color: #fff;
+  cursor: pointer;
+}

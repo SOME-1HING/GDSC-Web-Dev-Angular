@@ -1,0 +1,16 @@
+<div class="my-input">
+  <input
+    #inputTask
+    class="inputTodo"
+    type="text"
+    placeholder="Create a new todo..."
+    (keydown.enter)="addItemTodo(inputTask.value)"
+  />
+  <button class="add" (click)="addItemTodo(inputTask.value)">Add Task</button>
+</div>
+
+<div class="my-list">
+  @for (todo of filteredTodos; track $index) {
+  <todo-item [todo]="todo" cdkDrag (onRemoveTodo)="onRemoveTodo($event)" />
+  }
+</div>

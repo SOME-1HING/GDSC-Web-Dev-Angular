@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --linecolor: #fff;
+  --urlbackgroundimage: url(assets/images/bg.jpg);
+}
+
+body {
+  font-family: "Josefin Sans";
+  font-size: 18px;
+  background: hsl(225, 12%, 94%);
+}

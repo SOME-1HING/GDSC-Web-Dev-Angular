@@ -1,0 +1,51 @@
+.my-input {
+  width: 100%;
+  padding: 1.25rem;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  background: #ff6666;
+  display: flex;
+  gap: 10px;
+}
+
+.inputTodo {
+  padding: 1.25rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 80%;
+  height: 4rem;
+  color: #000;
+  background: hsl(0, 0%, 98%);
+}
+
+.my-input .add {
+  height: 4rem;
+  padding: 0 1.3rem;
+  border: none;
+  background: hsla(0, 0%, 100%, 0.2);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 1px solid hsla(0, 0%, 100%, 0.3);
+  margin-left: 5px;
+  cursor: pointer;
+  transition: background 0.4s ease-out;
+  outline: none;
+}
+
+.my-input .add:hover {
+  cursor: pointer;
+}
+
+.my-list {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+p {
+  text-align: center;
+  font-size: 0.8em;
+  color: var(--textfilters);
+  margin: 30px 0;
+}
